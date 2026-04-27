@@ -1,0 +1,25 @@
+Package: abds
+Title: Datasets for 'The Biologist's R'
+Version: 0.1.0
+Authors@R: 
+    person("Mohamed", "Jumanne",
+           role = c("aut", "cre"),
+           email = "author@abds.science",
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: A collection of synthetic but ecologically realistic datasets
+    designed to accompany 'The Biologist's R: A Practical Introduction to
+    Data Analysis for Field Scientists' by Mohamed Jumanne (Applied
+    Bio-Data Science, 2026). All datasets represent insect survey data
+    from a fictional tropical landscape and are structured to teach
+    progressive analytical skills from data import through to generalised
+    linear modelling. Datasets are suitable for teaching R, ecological
+    statistics, and reproducible research practices.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Depends: R (>= 4.0.0)
+URL: https://github.com/MohamedJumanne/abds
+BugReports: https://github.com/MohamedJumanne/abds/issues
+Author: Mohamed Jumanne [aut, cre]
+Maintainer: Mohamed Jumanne <author@abds.science>
