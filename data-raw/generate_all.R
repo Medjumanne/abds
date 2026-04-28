@@ -248,16 +248,15 @@ env_regression <- data.frame(
 )
 env_regression$elevation_m   <- pmax(200, env_regression$elevation_m)
 env_regression$temperature_c <- pmax(18, pmin(34, env_regression$temperature_c))
-lam_reg <- exp(
-  1.8 +
+lam_reg <- 1.8 +
   ifelse(env_regression$habitat == "wetland",  1.1,
-  ifelse(env_regression$habitat == "forest",   0.4, 0)) +
+         ifelse(env_regression$habitat == "forest",   0.4, 0)) +
   -0.003 * env_regression$distance_water_m +
-   0.5   * env_regression$vegetation_index +
+  0.5   * env_regression$vegetation_index +
   -0.002 * env_regression$elevation_m +
-   0.001 * env_regression$rainfall_mm +
+  0.001 * env_regression$rainfall_mm +
   rnorm(n_reg, 0, 0.25)
-)
+
 env_regression$abundance <- as.integer(rnbinom(n_reg, mu = exp(lam_reg), size = 3))
 
 # ── 11. sampling_design ──────────────────────────────────────────────────────
