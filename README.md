@@ -110,7 +110,7 @@ If you use `abds` in teaching or research, please cite:
 
 > Jumanne, M. (2026). *The Biologist's R: A Practical Introduction to Data
 > Analysis for Field Scientists*. Applied Bio-Data Science.
-> https://github.com/MohamedJumanne/abds
+> https://github.com/Medjumanne/abds
 
 ---
 
