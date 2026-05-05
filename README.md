@@ -30,7 +30,7 @@ No manual file creation required.
 ```r
 # Install from GitHub (requires the remotes package)
 install.packages("remotes")
-remotes::install_github("MohamedJumanne/abds")
+remotes::install_github("Medjumanne/abds")
 ```
 
 ---
@@ -119,8 +119,8 @@ If you use `abds` in teaching or research, please cite:
 Applied Bio-Data Science is a platform dedicated to making R-based analytics
 accessible to field scientists with biological training.
 
-- LinkedIn: [Applied Bio-Data Science](https://linkedin.com/company/applied-bio-data-science)
-- GitHub: [MohamedJumanne](https://github.com/MohamedJumanne)
+- LinkedIn: [Applied Bio-Data Science](https://linkedin.com/company/113216209)
+- GitHub: [Medjumanne](https://github.com/Medjumanne)
 
 ---
 
