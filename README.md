@@ -119,7 +119,7 @@ If you use `abds` in teaching or research, please cite:
 Applied Bio-Data Science is a platform dedicated to making R-based analytics
 accessible to field scientists with biological training.
 
-- LinkedIn: [Applied Bio-Data Science](https://linkedin.com/company/113216209)
+- LinkedIn: [Applied Bio-Data Science](https://www.linkedin.com/company/applied-bio-data-science-abds/)
 - GitHub: [Medjumanne](https://github.com/Medjumanne)
 
 ---
